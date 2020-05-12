@@ -4,8 +4,6 @@
   	"token":"",
   	"password":"",
     "nbserver_extensions": {
-    "jupyter_nbextensions_configurator": true,
-    "jupyterlab_rmotr_solutions": true,
       "jupyterlab": true
     }
   }
