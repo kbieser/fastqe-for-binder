@@ -1,0 +1,7 @@
+command: 
+
+ls *.fastq
+
+output: 
+
+Female2-oral1.fastq  Male5-oral1.fastq  Male5-oral2.fastq

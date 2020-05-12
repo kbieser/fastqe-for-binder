@@ -1,0 +1,16 @@
+command: 
+
+wget -O fastq.zip https://de.cyverse.org/dl/d/6476693F-1711-4AD5-AAEA-DDACBF8FB516/fastq.zip
+
+output (sample): 
+
+--2020-05-12 15:05:15--  https://de.cyverse.org/dl/d/6476693F-1711-4AD5-AAEA-DDACBF8FB516/fastq.zip
+Resolving de.cyverse.org (de.cyverse.org)... 128.196.254.121
+Connecting to de.cyverse.org (de.cyverse.org)|128.196.254.121|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8202139 (7.8M)
+Saving to: ‘fastq.zip’
+
+fastq.zip           100%[===================>]   7.82M  47.4MB/s    in 0.2s    
+
+2020-05-12 15:05:17 (47.4 MB/s) - ‘fastq.zip’ saved [8202139/8202139]

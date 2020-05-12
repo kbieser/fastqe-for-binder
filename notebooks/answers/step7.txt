@@ -1,0 +1,36 @@
+command: 
+
+fastp -i Female2-oral1.fastq -o out.Female2-oral1.fastq
+
+output: 
+
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Read1 before filtering:
+total reads: 27441
+total bases: 6723045
+Q20 bases: 4593910(68.3308%)
+Q30 bases: 4053764(60.2965%)
+
+Read1 after filtering:
+total reads: 17675
+total bases: 4330375
+Q20 bases: 3374696(77.9308%)
+Q30 bases: 3087336(71.2949%)
+
+Filtering result:
+reads passed filter: 17675
+reads failed due to low quality: 9766
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 0
+bases trimmed due to adapters: 0
+
+Duplication rate (may be overestimated since this is SE data): 0%
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i Female2-oral1.fastq -o out.Female2-oral1.fastq 
+fastp v0.20.1, time used: 5 seconds

@@ -1,0 +1,10 @@
+command: 
+
+unzip fastq.zip
+
+output: 
+
+Archive:  fastq.zip
+  inflating: Female2-oral1.fastq     
+  inflating: Male5-oral1.fastq       
+  inflating: Male5-oral2.fastq     

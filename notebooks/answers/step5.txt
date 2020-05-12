@@ -1,0 +1,26 @@
+command: 
+
+fastqe --help
+
+output: 
+
+usage: fastqe [-h] [--minlen N] [--version] [--mean] [--bin] [--min] [--max]
+              [--log LOG_FILE] [--scale]
+              [FASTA_FILE [FASTA_FILE ...]]
+
+Read one or more FASTQ files, compute quality stats for each file, print as
+emoji... for some reason.
+
+positional arguments:
+  FASTA_FILE      Input FASTQ files
+
+optional arguments:
+  -h, --help      show this help message and exit
+  --minlen N      Minimum length sequence to include in stats (default 0)
+  --version       show program's version number and exit
+  --mean          show mean quality per position (DEFAULT)
+  --bin           use binned scores
+  --min           show minimum quality per position
+  --max           show maximum quality per position
+  --log LOG_FILE  record program progress in LOG_FILE
+  --scale         show relevant scale in output

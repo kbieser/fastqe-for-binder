@@ -1,0 +1,7 @@
+Type `cd` followed by `cd /home/joyvan/` to navigate to the desktop directory. Then type `pwd` to confirm that you're in the correct directory.
+
+Cell one: `cd /home/joyvan/data`
+Output: None
+
+Cell two: `pwd`
+Output: `/home/joyvan/data`
