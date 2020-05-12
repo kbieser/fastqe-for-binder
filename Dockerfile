@@ -153,8 +153,8 @@ RUN conda install -c conda-forge nodejs \
     && jupyter lab build
 
 # Fix permissions on home directory
-RUN mkdir -p /home/$NB_USER/.irods
-RUN chown -R $NB_USER:users /home/cyverse_user
+RUN mkdir -p /home/$NB_USER
+RUN chown -R $NB_USER:users /home/$NB_USER
 
 # Switch back to cyverse_user to avoid accidental container runs as root
 USER $NB_USER
