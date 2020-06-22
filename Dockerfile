@@ -143,7 +143,7 @@ RUN pip install bash_kernel && python3 -m bash_kernel.install
 # install fastqe fastqe
 # https://github.com/lonsbio/fastqe
 RUN pip install fastqe && \
-RUN pip install lolcat
+pip install lolcat
 
 # install fastp
 RUN wget http://opengene.org/fastp/fastp && \
