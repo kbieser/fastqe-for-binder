@@ -70,8 +70,8 @@ RUN echo "auth requisite pam_deny.so" >> /etc/pam.d/su && \
     mkdir -p $CONDA_DIR && \
     chown $NB_USER:$NB_GID $CONDA_DIR && \
     chmod g+w /etc/passwd && \
-    fix-permissions $HOME && \
-    fix-permissions $CONDA_DIR
+    /usr/local/bin/fix-permissions $HOME && \
+    /usr/local/bin/fix-permissions $CONDA_DIR
 
 USER $NB_UID
 WORKDIR $HOME
